@@ -12,6 +12,17 @@ curl "https://www.jooks.ee/s/json/eyJhY3Rpb24iOiJzaV9yZXN1bHRzX3Jvd3NfanNvbiIsIm
 
 curl "https://www.jooks.ee/s/json/eyJhY3Rpb24iOiJzaV9yZXN1bHRzX3Jvd3NfanNvbiIsImxhbmdfaWQiOiIxIiwiY29tcGV0aXRpb25faWQiOiIiLCJkaXN0YW5jZV9pZCI6Ijc4MyIsImdlbmRlcl9pZCI6ImdlbmRlcl9pZCIsInYiOiIyMDI1MDkxNV8xMTIyNDJfMjIiLCJuY2lkIjoiNTk4In0=.json" > 2025_Run\2025.09.13_Run_42_Km.json
 
-script usage:
- python json_to_csv_converter.py -i 2025_Run\2025.09.13_Run_21_Km.json -o 2025_Run\2025.09.13_Run_21_Km.csv
- python json_to_csv_converter.py -i 2025_Run\2025.09.13_Run_42_Km.json -o 2025_Run\2025.09.13_Run_42_Km.csv
+script usage:  
+python json_to_csv_converter.py -i 2025_Run\2025.09.13_Run_21_Km.json -o 2025_Run\2025.09.13_Run_21_Km.csv  
+python json_to_csv_converter.py -i 2025_Run\2025.09.13_Run_42_Km.json -o 2025_Run\2025.09.13_Run_42_Km.csv  
+
+output: 
+python json_to_csv_converter.py -i 2025_Run\2025.09.13_Run_42_Km.json -o 2025_Run\2025.09.13_Run_42_Km.csv 
+Input file: 2025_Run\2025.09.13_Run_42_Km.json 
+Output file: 2025_Run\2025.09.13_Run_42_Km.csv 
+-------------------------------------------------- 
+✓ CSV file successfully created: 2025_Run\2025.09.13_Run_42_Km.csv 
+✓ Processed participants: 2264 
+✓ Columns: Koht, Nr., Nimi, Sünniaasta, Aeg, Sugu, VKL, Võistkond, Spordiala, Diplom 
+
+
